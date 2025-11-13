@@ -64,12 +64,15 @@ input {
     font-size: 20px;
 }
 
-i {
+.listas li i {
+    opacity: 0;
     cursor: pointer;
     color:#ffffff00;
+    transition: opacity 0.3s ease-in-out;
 }
 
-i:hover {
+li:hover i {
+    opacity: 1;
     color: #251414d1;
 }
 
